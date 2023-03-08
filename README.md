@@ -68,7 +68,7 @@ You may also see any lint errors in the console.
 ## 👤 _Tadesse Jemal_
 
 </div>
-<div id="badges">
+<div id="badges" align="center">
   <a href="https://www.linkedin.com/in/tadesse-jemal-7b7058204/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
@@ -82,6 +82,7 @@ You may also see any lint errors in the console.
 <div id="badges"align="center">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+</div>
 
 ## 🤝 Contributing
 
