@@ -87,6 +87,7 @@ function NavBar() {
           )}
           {loggedIn && (
             <>
+              <h1 className='mt-6 py-2 pl-92 text-left font-[Taxicab] text-xl font-bold'>Wellcome</h1>
               <button
                 type='button'
                 onClick={logoutHandler}
