@@ -16,14 +16,6 @@ const isLoggedIn = (token) => {
 
 const isLoggedOut = (token) => !isLoggedIn(token);
 
-const getRole = (token) => {
-  if (token !== '') {
-    const decodedJwtData = decodeToken(token);
-    return decodedJwtData.role;
-  }
-  return 'No Role';
-};
-
 const getUserId = (token) => {
   if (token !== '') {
     const decodedJwtData = decodeToken(token);
@@ -37,5 +29,5 @@ const logout = () => {
 };
 
 export {
-  isLoggedIn, isLoggedOut, getRole, getUserId, logout,
+  isLoggedIn, isLoggedOut, getUserId, logout,
 };
