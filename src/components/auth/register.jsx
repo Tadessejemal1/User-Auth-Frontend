@@ -75,14 +75,14 @@ const SignUp = () => {
           </div>
         </header>
 
-        <h2 className="w-full text-center font-Taxicab text-3xl capitalize text-gray-800">
+        <h2 className="w-full text-center font-Taxicab text-2xl capitalize text-gray-600">
           Sign up
         </h2>
 
         <div className="w-full">
           <label htmlFor="name">Full Name</label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-600 focus:outline-none"
             name="name"
             id="name"
             type="text"
@@ -96,7 +96,7 @@ const SignUp = () => {
         <div className="w-full">
           <label htmlFor="username">Username</label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-600 focus:outline-none"
             name="username"
             id="username"
             type="text"
@@ -110,7 +110,7 @@ const SignUp = () => {
         <div className="w-full">
           <label htmlFor="email">Email</label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-600 focus:outline-none"
             name="email"
             id="email"
             type="email"
@@ -123,7 +123,7 @@ const SignUp = () => {
         <div className="w-full">
           <label htmlFor="name">Password</label>
           <input
-            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-600 focus:outline-none"
             name="password"
             id="password"
             type={showPassword ? 'text' : 'password'}
