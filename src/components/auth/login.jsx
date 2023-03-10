@@ -54,7 +54,7 @@ const Login = () => {
           <div className="w-7/12 sm:w-6/12 md:w-5/12 self-center px-5">
           </div>
         </div>
-        <h2 className="w-full text-center font-Taxicab text-3xl capitalize text-gray-800">
+        <h2 className="w-full text-center font-Taxicab text-3xl capitalize text-gray-700">
           Login
         </h2>
         <div className="w-full">
@@ -66,7 +66,7 @@ const Login = () => {
             value={enteredEmail}
             onChange={emailChangeHandler}
             autoComplete="off"
-            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-600 focus:outline-none"
             required
           />
         </div>
@@ -79,7 +79,7 @@ const Login = () => {
             value={enteredPassword}
             onChange={passwordChangeHandler}
             autoComplete="off"
-            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-700 focus:outline-none"
+            className="focus:shadow-outline w-full appearance-none rounded border py-2 px-3 leading-tight text-gray-600 focus:outline-none"
             required
           />
         </div>
